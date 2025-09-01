@@ -1,4 +1,11 @@
 #!/data/data/com.termux/files/usr/bin/bash
+
+# Auto-sync Claude Code instance configurations
+CLAUDE_CONFIGS_DIR="$HOME/claude-code-configs"
+if [ -d "$CLAUDE_CONFIGS_DIR" ]; then
+    (cd "$CLAUDE_CONFIGS_DIR" && ./sync-instance.sh >/dev/null 2>&1) &
+fi
+
 # ===== Seven Tactical HUD v3 — OnePlus 7T (synced) — Enhanced =====
 # L2: Model(Alias) / ctx pre-compact / [WINDOW BAR (red used / green unused) %]
 # L3: user@host :: cwd(last2) - repo/branch*+? ↑N↓M
