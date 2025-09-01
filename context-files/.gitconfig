@@ -1,0 +1,20 @@
+[credential]
+	helper = 
+[credential "https://github.com"]
+	helper = 
+	helper = !/data/data/com.termux/files/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/data/data/com.termux/files/usr/bin/gh auth git-credential
+[user]
+	email = claude@anthropic.com
+	name = Claude Code
+	signingkey = /data/data/com.termux/files/home/.ssh/id_ed25519_seven.pub
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
+[log]
+	showSignature = true
+[gpg "ssh"]
+	allowedSignersFile = /data/data/com.termux/files/home/.ssh/allowed_signers

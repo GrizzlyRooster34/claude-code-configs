@@ -8,6 +8,13 @@ This repository contains all Claude Code configuration files and settings from t
 - **`agents/`** - YAML configuration files and documentation for 39 specialized Claude agents
 - **`agents-ts/`** - TypeScript implementation files for core agents
 
+### Dumbass Protocol & Operational Framework
+- **`CLAUDE.md`** - Complete Claude Code behavioral directives and Dumbass Protocol
+- **`HOMEWORK_CLAUDE.md`** - Disciplinarian homework system with mandatory checklist
+- **`OPERATIONAL_BRIEFING.md`** - Principal-Agent relationship and execution protocols
+- **`claude-global-config.json`** - Complete Claude global configuration
+- **`context-files/`** - Git config, shell configs, and environment context
+
 #### Agent Categories:
 - **Platform Agents**: termux, mobile, windows, companion
 - **Security Agents**: security-audit, threat-simulator, creator-bond-verifier
@@ -54,6 +61,9 @@ This repository contains all Claude Code configuration files and settings from t
 - **Memory and performance optimization** agents
 - **Custom statusline** with usage tracking
 - **Orchestrated agent workflows** for complex tasks
+- **📝 Dumbass Protocol** - Disciplinarian system for Claude Code enforcement
+- **🔧 Operational Briefing** - Complete operator relationship documentation
+- **📊 Performance Ledger** - Automated strike/star tracking system
 
 ## Agent Highlights
 
@@ -88,6 +98,33 @@ To replicate this configuration on another device:
    ```
    
    Or manually copy files to appropriate Claude Code directories.
+
+4. **Read operational briefing:**
+   ```bash
+   cat OPERATIONAL_BRIEFING.md  # Understand operator relationship
+   cat CLAUDE.md               # Review behavioral directives  
+   cat HOMEWORK_CLAUDE.md      # Understand disciplinary system
+   ```
+
+## 📝 Dumbass Protocol Overview
+
+The **Dumbass Protocol** is a disciplinarian enforcement system that:
+- Tracks Claude Code performance with **Gold Stars** and **Strikes**
+- Enforces naming conventions (Quadran-Lock vs Quadra-Lock)
+- Assigns homework for violations via `HOMEWORK_CLAUDE.md`
+- Auto-tags violations with **@dumbass (Sonnet)** in PR comments
+- Maintains audit trail with commit SHAs and timestamps
+
+### Current Performance Ledger
+- ⭐ **Gold Stars**: 1 (Opus payload branch preservation)  
+- ❌ **Strikes**: 1 (Quadran-Lock rollback attempt)
+
+### Key Enforcement Rules
+- **Quadran-Lock** = Security gates (Q1-Q4), docs use hyphen, code uses camelCase
+- **Quadra-Lock** = CSSR safety rails, same naming convention
+- **Forbidden tokens**: `quadranlock`, `quadralock`, variants trigger immediate strikes
+- **High-cost branches**: Never delete Opus/RouteLLM generated code
+- **Verbal override**: Creator saying "dumbass" triggers automatic strike + homework
 
 ---
 
