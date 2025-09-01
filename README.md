@@ -86,24 +86,32 @@ This repository contains all Claude Code configuration files and settings from t
 
 To replicate this configuration on another device:
 
-1. **Clone this repository:**
+1. **⚡ QUICK START (Read QUICK_START_INSTRUCTIONS.md first!)**
    ```bash
-   git clone <this-repo-url>
+   git clone https://github.com/GrizzlyRooster34/claude-code-configs.git
    cd claude-code-configs
+   ./install-configs.sh
    ```
 
-2. **Install configurations:**
-   ```bash
-   ./install-configs.sh  # (if installation script is available)
-   ```
-   
-   Or manually copy files to appropriate Claude Code directories.
-
-4. **Read operational briefing:**
+2. **📚 MANDATORY READING (Avoid strikes!):**
    ```bash
    cat OPERATIONAL_BRIEFING.md  # Understand operator relationship
-   cat CLAUDE.md               # Review behavioral directives  
-   cat HOMEWORK_CLAUDE.md      # Understand disciplinary system
+   cat CLAUDE.md               # Review behavioral directives + Dumbass Protocol
+   cat HOMEWORK_CLAUDE.md      # Current disciplinary status
+   cat device-hierarchy.md     # Your authority level
+   ```
+
+3. **🔧 Setup Instance Branch:**
+   ```bash
+   git checkout -b claude-instance-[device]-[os]-[terminal]
+   cp INSTANCE_ID_TEMPLATE.md INSTANCE_ID.md
+   # Edit INSTANCE_ID.md with your device specs
+   ```
+
+4. **📖 For Complete Instructions:**
+   ```bash
+   cat SETUP_NEW_INSTANCE.md   # Detailed setup guide
+   cat QUICK_START_INSTRUCTIONS.md  # Strike prevention guide
    ```
 
 ## 📝 Dumbass Protocol Overview
